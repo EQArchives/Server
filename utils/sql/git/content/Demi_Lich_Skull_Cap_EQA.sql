@@ -12,7 +12,7 @@ INSERT INTO `items` (id,Name,icon,idfile,itemtype,size,classes,races,color,stack
 ;
 
 INSERT INTO `items` (id,Name,ac,acha,adex,aint,asta,casttime,clicktype,clicklevel,clicklevel2,hp,magic,mana,material,maxcharges,mr,sellrate,slots,clickeffect,icon,idfile,itemtype,size,classes,races,color,stacksize,stackable,lore,nodrop,norent,weight,updated,verified,created,source,bagsize,bagslots,bagtype,itemclass) VALUES
-(32630,'Demi Lich Skullcap',10,-5,10,15,10,13000,4,50,0,50,1,75,1,-1,10,1,4,3305,1070,'IT63',10,1,1024,16383,4278190080,1,3,'*Necro of the 50th Circle',0,-1,6,'2015-12-11 22:46:49','2016-01-06 10:06:51','2015-12-11 22:46:49','13THFLOOR',0,0,0,0)
+(32630,'Demi Lich Skullcap',10,-5,10,15,10,10000,4,50,0,50,1,75,1,-1,10,1,4,1616,1070,'IT63',10,1,1024,16383,4278190080,1,3,'*Necro of the 50th Circle',0,-1,6,'2015-12-11 22:46:49','2016-01-06 10:06:51','2015-12-11 22:46:49','13THFLOOR',0,0,0,0)
 ;
 
 INSERT INTO `npc_types` (id,name,lastname,level,race,class,bodytype,hp,mana,gender,texture,size,hp_regen_rate,mana_regen_rate,loottable_id,npc_spells_id,npc_spells_effects_id,npc_faction_id,mindmg,maxdmg,special_abilities,aggroradius,assistradius,face,armortint_id,armortint_red,armortint_green,armortint_blue,d_melee_texture1,d_melee_texture2,prim_melee_type,sec_melee_type,ranged_type,runspeed,MR,CR,DR,FR,PR,see_invis,see_invis_undead,AC,npc_aggro,spawn_limit,attack_delay,STR,STA,DEX,AGI,_INT,WIS,CHA,see_sneak,see_improved_hide,ATK,Accuracy,slow_mitigation,maxlevel,unique_spawn_by_name,walkspeed,ignore_distance) VALUES
